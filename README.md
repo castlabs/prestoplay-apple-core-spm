@@ -13,21 +13,21 @@ This repository exposes Castlabs PRESTOplay Apple Core SDK binaries as Swift Pac
 
 Import one or more of these products in your app target:
 
-- `PRESTOplay` (core framework, required for all plugins)
-- `CastlabsApple`
-- `CastlabsVT`
-- `CastlabsGst`
-- `CastlabsVTWithWidevine`
-- `CastlabsSubtitles`
-- `CastlabsDownloader`
-- `CastlabsThumbnails`
-- `CastlabsChromecast`
-- `CastlabsIMA`
-- `CastlabsBroadpeak`
-- `CastlabsYoubora`
-- `CastlabsConviva`
-- `CastlabsMux`
+- `PRESTOplayCore` (core framework, required for all plugins)
+- `CastlabsApplePlugin`
+- `CastlabsVTPlugin`
+- `CastlabsGstPlugin`
+- `CastlabsVTWithWidevinePlugin`
+- `CastlabsSubtitlesPlugin`
+- `CastlabsDownloaderPlugin`
+- `CastlabsThumbnailsPlugin`
+- `CastlabsChromecastPlugin`
+- `CastlabsIMAPlugin`
+- `CastlabsBroadpeakPlugin`
+- `CastlabsYouboraPlugin`
+- `CastlabsConvivaPlugin`
+- `CastlabsMuxPlugin`
 
 ## Widevine Support
 
-`CastlabsVTWithWidevine` requires the Widevine framework to be added manually to your Xcode project. The framework is part of the package downloaded from Download Portal.
+`CastlabsVTWithWidevinePlugin` requires the Widevine framework to be added manually to your Xcode project. The framework is part of the package downloaded from Download Portal.

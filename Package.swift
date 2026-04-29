@@ -7,46 +7,46 @@ let package = Package(
     platforms: [.iOS(.v15), .tvOS(.v15), .macOS(.v10_15), .macCatalyst(.v15)],
     products: [
         .library(
-            name: "PRESTOplay",
+            name: "PRESTOplayCore",
             targets: ["PRESTOplayBinary"]),
         .library(
-            name: "CastlabsApple",
+            name: "CastlabsApplePlugin",
             targets: ["CastlabsAppleBinary"]),
         .library(
-            name: "CastlabsVT",
+            name: "CastlabsVTPlugin",
             targets: ["CastlabsVTBinary"]),
         .library(
-            name: "CastlabsVTWithWidevine",
+            name: "CastlabsVTWithWidevinePlugin",
             targets: ["CastlabsVTWithWidevineBinary"]),
         .library(
-            name: "CastlabsGst",
+            name: "CastlabsGstPlugin",
             targets: ["CastlabsGstBinary"]),
         .library(
-            name: "CastlabsSubtitles",
+            name: "CastlabsSubtitlesPlugin",
             targets: ["CastlabsSubtitlesBinary"]),
         .library(
-            name: "CastlabsDownloader",
+            name: "CastlabsDownloaderPlugin",
             targets: ["CastlabsDownloaderBinary"]),
         .library(
-            name: "CastlabsThumbnails",
+            name: "CastlabsThumbnailsPlugin",
             targets: ["CastlabsThumbnailsBinary"]),
         .library(
-            name: "CastlabsChromecast",
+            name: "CastlabsChromecastPlugin",
             targets: ["CastlabsChromecastBinary"]),
         .library(
-            name: "CastlabsIMA",
+            name: "CastlabsIMAPlugin",
             targets: ["CastlabsIMABinary"]),
         .library(
-            name: "CastlabsBroadpeak",
+            name: "CastlabsBroadpeakPlugin",
             targets: ["CastlabsBroadpeakBinary"]),
         .library(
-            name: "CastlabsYoubora",
+            name: "CastlabsYouboraPlugin",
             targets: ["CastlabsYouboraBinary"]),
         .library(
-            name: "CastlabsConviva",
+            name: "CastlabsConvivaPlugin",
             targets: ["CastlabsConvivaBinary"]),
         .library(
-            name: "CastlabsMux",
+            name: "CastlabsMuxPlugin",
             targets: ["CastlabsMuxBinary"]),
     ],
     targets: [
